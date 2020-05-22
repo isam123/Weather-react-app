@@ -2,7 +2,7 @@
   "name": "Weather.com",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://isam123.github.io/Weather-react-app",
+  "homepage":"https://isam123.github.io/Weather-react",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "cra-template": "1.0.3",
