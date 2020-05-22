@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import  WeatherCard  from './Components/Weather/WeatherCard'
 import Navbar from './Components/Uxcomponent/Navbar';
 import Hero from './Components/Uxcomponent/Hero';
+import Sidebar from './Components/Uxcomponent/Sidebar';
+import Forecast from './Components/Weather/Forecast';
 
 export default class App extends Component {
 
@@ -28,19 +30,29 @@ export default class App extends Component {
          <Navbar/>
          {/* style={{ backgroundImage: `url(require("images/img.svg"))` }} */}   
          <Hero></Hero>   
-    <div className="row mt-3 ">
-        
-    <div className ="col-4">
+         {/* Main Container */}
+    <div className="row mt-3 "> 
+       
+    <div className ="col-sm-3">
+         <Sidebar/>
+    </div>
+
+    <div className ="col-sm-6">
+
+    <div className ="row">
+         <WeatherCard/>
+         <WeatherCard/>
+         <WeatherCard/>
+         <WeatherCard/>
+         <WeatherCard/>
+         <WeatherCard/>
+    </div>
 
     </div>
-        <div className ="col-6">
-        <div className ="row">
-         <WeatherCard/>
-         <WeatherCard/>
-         <WeatherCard/>
-         <WeatherCard/>
-         </div>
-        </div>
+
+    <div className="col-sm-3 col-md-3">
+        <Forecast></Forecast>
+    </div>
         
     </div>
      </div>

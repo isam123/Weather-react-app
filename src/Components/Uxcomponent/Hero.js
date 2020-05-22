@@ -1,19 +1,20 @@
 import React, { Component } from 'react'
 
-export default class Hero extends Component {
+export default class git extends Component {
     render() {
         return (
             <div>
                 <div 
           style={{ height:'340px' ,
-          backgroundImage:`url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg")`
-          }}  className="row justify-content-center mx-auto" >
-    <div class="col-sm-10 my-auto">
-        <div className="row justify-content-center">
-       <button href="#/" className="btn btn-sm btn-danger"> search </button>
-        <input type="text" className="form-control col-5" placeholder="Last name"/>
+          backgroundColor:'',
+          
+          }}  className="row justify-content-center unique-color mx-auto" >
+    <div class="col-sm-8 my-auto ml-auto">
+            <h3 className="text-white">Get the Latest Weather Forecast</h3>
+       <button href="#/" className="btn btn-default btn-md unique-color "> search </button>
+        <input type="text" className="form-control w-50 mt-2 d-inline" placeholder="Search City"/>
         
-        </div>
+        
     </div>
      </div>
             </div>

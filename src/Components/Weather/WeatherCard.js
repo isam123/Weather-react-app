@@ -1,7 +1,7 @@
 import React from 'react'
 const WeatherCard = () => {
     return ( 
-        <div className ="col-md-3 col-sm-5 align-self-center">
+        <div className ="col-md-3 col-sm-3 mb-3 align-self-center">
         <div className="card near-moon-gradient white-text mx-auto">
             <div className =" pt-2 text-center">
             <p>London</p>
