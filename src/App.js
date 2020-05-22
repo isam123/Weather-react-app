@@ -48,14 +48,16 @@ export default class App extends Component {
          <WeatherCard/>
     </div>
 
-    </div>
+    </div> {/* End of Wherther container*/}
 
     <div className="col-sm-3 col-md-3">
         <Forecast></Forecast>
-    </div>
+ </div> {/* End of fore cast*/}
         
-    </div>
-     </div>
+    </div> {/* End of main row */}
+
+    <div className="row borrder h-100"></div>
+     </div> 
    
  )
  };

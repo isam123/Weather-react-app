@@ -9,7 +9,7 @@ export default class git extends Component {
           backgroundColor:'',
           
           }}  className="row justify-content-center unique-color mx-auto" >
-    <div class="col-sm-8 my-auto ml-auto">
+    <div class="col-sm-8 my-auto ml-5">
             <h3 className="text-white">Get the Latest Weather Forecast</h3>
        <button href="#/" className="btn btn-default btn-md unique-color "> search </button>
         <input type="text" className="form-control w-50 mt-2 d-inline" placeholder="Search City"/>

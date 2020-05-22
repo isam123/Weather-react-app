@@ -4,7 +4,7 @@ const Navbar = () =>{
     
         return (
             <div>       
-<nav className="navbar navbar-expand-lg navbar-dark unique-color">
+<nav className="navbar navbar-expand-lg navbar-dark unique-color border-bottom">
 
   <a className="navbar-brand"  href="#/">Weather-app</a>
 
