@@ -8,22 +8,23 @@ export default class Forecast extends Component {
                 <div className="w-75">
                 <table className="table table-sm table-border">
                     <thead>
-
+                    <tr>
                         <th>City</th>
                         <th>High</th>
-                    </thead>
+                    </tr>
+                    </thead> 
                     <tbody>
-                       <tr> <td>London</td>
+                       <tr><td>London</td>
                        <td>43'C</td></tr>
-                       <tr> <td>London</td>
+                       <tr><td>London</td>
                        <td>43'C</td></tr>
-                       <tr> <td>London</td>
+                       <tr><td>London</td>
                        <td>43'C</td></tr>
-                       <tr> <td>London</td>
+                       <tr><td>London</td>
                        <td>43'C</td></tr>
-                       <tr> <td>London</td>
+                       <tr><td>London</td>
                        <td>43'C</td></tr>
-                       <tr> <td>London</td>
+                       <tr><td>London</td>
                        <td>43'C</td></tr>
                     </tbody>
                 </table>
