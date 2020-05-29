@@ -2,6 +2,7 @@
   "name": "Weather.com",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://isam123.github.io/Weather-react",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "axios": "^0.19.2",
@@ -16,6 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "eject": "react-scripts eject"
   },
   "browserslist": {
